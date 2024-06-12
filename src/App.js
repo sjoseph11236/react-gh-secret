@@ -6,6 +6,7 @@ function App() {
   const [items, setItems] = useState([]);
   const getPlaylists = async () => {
     try {
+      console.log('youtybe api key', youtube_api_key)
       const playlists_url = `https://youtube.googleapis.com/youtube/v3/playlists?part=snippet%2CcontentDetails&maxResults=25&key=${youtube_api_key}&channelId=UCCj88q3bb5OnVznn7hUY_9Q`
       const response = await fetch(playlists_url)
       const playlists = await response.json()
