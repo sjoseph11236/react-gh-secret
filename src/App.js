@@ -18,7 +18,7 @@ function App() {
   useEffect(() => {
     getPlaylists()
     console.log('playlist items', items)
-  }, [items])
+  }, [])
   return (
     <div className="App">
       <p>The number of items { items ? items.length: '--'}</p>
