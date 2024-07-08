@@ -15,6 +15,7 @@ function App() {
     } catch (error) {}
   }
   useEffect(() => {
+    console.log('Hello Again')
     getPlaylists()
   }, [])
   return (
