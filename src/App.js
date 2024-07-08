@@ -16,7 +16,6 @@ function App() {
   }
   useEffect(() => {
     getPlaylists()
-    console.log('playlist items', items)
   }, [])
   return (
     <div className="App">
