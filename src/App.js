@@ -89,6 +89,7 @@ function App() {
       <StyledList>
           {filteredItems.map((item)=> (
             <StyledListItem key={item.id} onClick={() => {setCurrent(item.id)}}>
+            <StyledLink href={`https://music.youtube.com/playlist?list=${item.id}`} target='_blank'>link</StyledLink>
               <div>
                 <img src={item.snippet.thumbnails.default.url} alt={item.snippet.title}/>
               </div>
@@ -115,6 +116,13 @@ const StyledList = styled.ul`
 const StyledListItem = styled.li`
   margin-bottom: 10px;
   margin-top: 10px;
+  color: white;
+  &:hover {
+    text-decoration: underline;
+  }
+`
+
+const StyledLink = styled.a`
   color: white;
   &:hover {
     text-decoration: underline;
