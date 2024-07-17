@@ -33,23 +33,18 @@ function App() {
 
   return (
     <div className="App">
-          <div>
-        <StyledInput
-          type='text'
-          placeholder='Search playlists'
-          onInput={(e) => {
-          searchPlaylist(e.target.value)
-        }}/>
-      </div>
+
       <div>
-        <iframe
+        { current ?
+          <iframe
           width="560"
           height="315"
           src={`https://www.youtube.com/embed/videoseries?si=AOnR1uy3rBlhF90S&amp;list=${current}&autoplay=1`}
           title="YouTube video player"
           allow='autoplay; encrypted-media'
           referrerPolicy="strict-origin-when-cross-origin"
-          allowFullScreen></iframe>
+          allowFullScreen></iframe> : null
+        }
 
         {/* <iframe width="560" height="315" src={`https://www.youtube.com/embed/${current}?si=4GZPtd2-cAZtclt4`} title={`YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share`} referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> */}
 
@@ -86,6 +81,14 @@ function App() {
       </StyledContainer> */}
 
       {/* Legacy Playlist Idea */}
+      <div>
+        <StyledInput
+          type='text'
+          placeholder='Search playlists'
+          onInput={(e) => {
+          searchPlaylist(e.target.value)
+        }}/>
+      </div>
       <StyledList>
           {filteredItems.map((item)=> (
             <StyledListItem key={item.id} onClick={() => {setCurrent(item.id)}}>
