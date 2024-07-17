@@ -2,11 +2,11 @@ import './App.css';
 import React, { useMemo, useState } from 'react';
 import playlists from './seed.json';
 import styled from 'styled-components';
-import YouTube from 'react-youtube';
+// import YouTube from 'react-youtube';
 
 function App() {
   const [query, setQuery] = useState("");
-  const [queue, setQueue] = useState([]);
+  // const [queue, setQueue] = useState([]);
   const [ current, setCurrent ]= useState("");
   const filteredItems = useMemo(() => {
     return playlists.filter((item) => item.snippet.title.toLowerCase().includes(query.toLowerCase()));
@@ -16,20 +16,20 @@ function App() {
     setQuery(_query)
   }
 
-  const getPlaylistItems = async (playlistId) => {
-    try {
-      const youtube_api_key = process.env.REACT_APP_API_KEY
-      const response = await fetch(`https://www.googleapis.com/youtube/v3/playlistItems?part=snippet%2CcontentDetails&maxResults=50&key=${youtube_api_key}&playlistId=${playlistId}`)
-      const json = await response.json();
-      const queueItems = json.items;
-      const video = queueItems[0].contentDetails.videoId
-      setCurrent(video)
-      console.log('queueItems', queueItems)
-      setQueue(queueItems)
-    } catch (error) {
-      console.log('error', error)
-    }
-  }
+  // const getPlaylistItems = async (playlistId) => {
+  //   try {
+  //     const youtube_api_key = process.env.REACT_APP_API_KEY
+  //     const response = await fetch(`https://www.googleapis.com/youtube/v3/playlistItems?part=snippet%2CcontentDetails&maxResults=50&key=${youtube_api_key}&playlistId=${playlistId}`)
+  //     const json = await response.json();
+  //     const queueItems = json.items;
+  //     const video = queueItems[0].contentDetails.videoId
+  //     setCurrent(video)
+  //     console.log('queueItems', queueItems)
+  //     setQueue(queueItems)
+  //   } catch (error) {
+  //     console.log('error', error)
+  //   }
+  // }
 
   return (
     <div className="App">
@@ -121,6 +121,6 @@ const StyledListItem = styled.li`
   }
 `
 
-const StyledContainer = styled.div`
-  display: flex;
-`
+// const StyledContainer = styled.div`
+//   display: flex;
+// `
