@@ -3,13 +3,13 @@ import React, { useMemo, useState } from 'react';
 import playlists from './seed.json';
 import styled from 'styled-components';
 // import YouTube from 'react-youtube';
-import { SiYoutubemusic } from "react-icons/si";
-import { FaVideo } from "react-icons/fa";
+// import { SiYoutubemusic } from "react-icons/si";
+// import { FaVideo } from "react-icons/fa";
 
 function App() {
   const [query, setQuery] = useState("");
   // const [queue, setQueue] = useState([]);
-  const [ current, setCurrent ]= useState("");
+  // const [ current, setCurrent ]= useState("");
   const filteredItems = useMemo(() => {
     return playlists.filter((item) => item.snippet.title.toLowerCase().includes(query.toLowerCase()));
   }, [query])
@@ -37,16 +37,16 @@ function App() {
     <div className="App">
 
       <div>
-        { current ?
-          <iframe
+
+          {/* <iframe
           width="560"
           height="315"
           src={`https://www.youtube.com/embed/videoseries?si=AOnR1uy3rBlhF90S&amp;list=${current}&autoplay=1`}
           title="YouTube video player"
           allow='autoplay; encrypted-media'
           referrerPolicy="strict-origin-when-cross-origin"
-          allowFullScreen></iframe> : null
-        }
+          allowFullScreen></iframe>  */}
+
 
         {/* <iframe width="560" height="315" src={`https://www.youtube.com/embed/${current}?si=4GZPtd2-cAZtclt4`} title={`YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share`} referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> */}
 
