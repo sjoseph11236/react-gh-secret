@@ -3,6 +3,8 @@ import React, { useMemo, useState } from 'react';
 import playlists from './seed.json';
 import styled from 'styled-components';
 // import YouTube from 'react-youtube';
+import { SiYoutubemusic } from "react-icons/si";
+import { FaVideo } from "react-icons/fa";
 
 function App() {
   const [query, setQuery] = useState("");
@@ -81,57 +83,86 @@ function App() {
       </StyledContainer> */}
 
       {/* Legacy Playlist Idea */}
-      <div>
+      <StyledInputContainer>
         <StyledInput
           type='text'
           placeholder='Search playlists'
           onInput={(e) => {
           searchPlaylist(e.target.value)
         }}/>
-      </div>
+      </StyledInputContainer>
       <StyledList>
-          {filteredItems.map((item)=> (
-            <StyledListItem key={item.id} onClick={() => {setCurrent(item.id)}}>
-            <StyledLink href={`https://music.youtube.com/playlist?list=${item.id}`} target='_blank'>link</StyledLink>
-              <div>
-                <img src={item.snippet.thumbnails.default.url} alt={item.snippet.title}/>
-              </div>
-              {item.snippet.title}
-            </StyledListItem>))}
-          </StyledList>
-
+        {filteredItems.map((item)=> (
+          <StyledListItem key={item.id}>
+            <StyledImageContainer>
+              <img src={item.snippet.thumbnails.default.url} alt={item.snippet.title}/>
+            </StyledImageContainer>
+            <StyledLink href={`https://music.youtube.com/playlist?list=${item.id}`} target='_blank'>{item.snippet.title}</StyledLink>
+          </StyledListItem>))}
+        </StyledList>
     </div>
   );
 }
 
 export default App;
 
-const StyledInput = styled.input`
-  border-radius: 25px;
-  border: 1px solid;
-  padding: 5px 40px 4px 15px;
-  width: 30%;
+const StyledInputContainer = styled.div`
+  margin-top: 25px;
+  margin-bottom: 25px;
 `
 
-const StyledList = styled.ul`
-  list-style-type: none;
+const StyledImageContainer = styled.div`
+  margin-right: 25px;
 `
-const StyledListItem = styled.li`
+
+const StyledInput = styled.input`
+  font-family: DejaVu Sans Mono, monospace;
+  background: none;
+  border-radius: 0;
+  border: 0;
+  padding: 5px 40px 4px 15px;
+  width: 30%;
+  transition: all .15s ease;
+  border-bottom: 2px solid #004AAD;
+
+  &:focus {
+    outline: none;
+    color: white;
+  }
+
+  &::placeholder {
+    text-align: center;
+  }
+`
+
+const StyledList = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+`
+const StyledListItem = styled.div`
+  font-family: DejaVu Sans Mono, monospace;
   margin-bottom: 10px;
   margin-top: 10px;
   color: white;
+  display: flex;
+  padding: 10px;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  transition: 0.3s;
+
   &:hover {
     text-decoration: underline;
+    background-color: gray;
   }
 `
 
 const StyledLink = styled.a`
+  text-decoration: none;
   color: white;
   &:hover {
     text-decoration: underline;
   }
 `
 
-// const StyledContainer = styled.div`
-//   display: flex;
-// `
