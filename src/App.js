@@ -1,12 +1,29 @@
 import './App.css';
-import React, { useMemo, useState } from 'react';
+import React, { useEffect, useMemo, useState } from 'react';
 import playlists from './seed.json';
 import styled from 'styled-components';
 // import YouTube from 'react-youtube';
-// import { SiYoutubemusic } from "react-icons/si";
-// import { FaVideo } from "react-icons/fa";
+import { SiYoutubemusic } from "react-icons/si";
+import { FaYoutube } from "react-icons/fa";
 
 function App() {
+
+  const createImage  =  (item) =>  {
+
+
+    return (
+      <StyledImageContainer>
+      <StyledRowContainer>
+        <StyledImage src={item.snippet.thumbnails.default.url} alt={item.snippet.title}/>
+        <StyledImage src={item.snippet.thumbnails.default.url} alt={item.snippet.title}/>
+      </StyledRowContainer>
+      <StyledRowContainer>
+        <StyledImage src={item.snippet.thumbnails.default.url} alt={item.snippet.title}/>
+        <StyledImage src={item.snippet.thumbnails.default.url} alt={item.snippet.title}/>
+      </StyledRowContainer>
+    </StyledImageContainer>
+    )
+  }
   const [query, setQuery] = useState("");
   // const [queue, setQueue] = useState([]);
   // const [ current, setCurrent ]= useState("");
@@ -18,20 +35,17 @@ function App() {
     setQuery(_query)
   }
 
-  // const getPlaylistItems = async (playlistId) => {
-  //   try {
-  //     const youtube_api_key = process.env.REACT_APP_API_KEY
-  //     const response = await fetch(`https://www.googleapis.com/youtube/v3/playlistItems?part=snippet%2CcontentDetails&maxResults=50&key=${youtube_api_key}&playlistId=${playlistId}`)
-  //     const json = await response.json();
-  //     const queueItems = json.items;
-  //     const video = queueItems[0].contentDetails.videoId
-  //     setCurrent(video)
-  //     console.log('queueItems', queueItems)
-  //     setQueue(queueItems)
-  //   } catch (error) {
-  //     console.log('error', error)
-  //   }
-  // }
+  const getPlaylistItems = async (playlistId) => {
+    try {
+      const youtube_api_key = process.env.REACT_APP_API_KEY
+      const response = await fetch(`https://www.googleapis.com/youtube/v3/playlistItems?part=snippet%2CcontentDetails&maxResults=50&key=${youtube_api_key}&playlistId=${playlistId}`)
+      const json = await response.json();
+      const queueItems = json.items;
+      return queueItems.slice(0, 4)
+    } catch (error) {
+      console.log('error', error)
+    }
+  }
 
   return (
     <div className="App">
@@ -95,9 +109,22 @@ function App() {
         {filteredItems.map((item)=> (
           <StyledListItem key={item.id}>
             <StyledImageContainer>
-              <img src={item.snippet.thumbnails.default.url} alt={item.snippet.title}/>
+              <StyledRowContainer>
+                <StyledImage src={item.snippet.thumbnails.default.url} alt={item.snippet.title}/>
+                <StyledImage src={item.snippet.thumbnails.default.url} alt={item.snippet.title}/>
+              </StyledRowContainer>
+              <StyledRowContainer>
+                <StyledImage src={item.snippet.thumbnails.default.url} alt={item.snippet.title}/>
+                <StyledImage src={item.snippet.thumbnails.default.url} alt={item.snippet.title}/>
+              </StyledRowContainer>
             </StyledImageContainer>
-            <StyledLink href={`https://music.youtube.com/playlist?list=${item.id}`} target='_blank'>{item.snippet.title}</StyledLink>
+            {item.snippet.title}
+            <StyledYTLink href={`https://music.youtube.com/playlist?list=${item.id}`} target='_blank'>
+              <SiYoutubemusic />
+            </StyledYTLink>
+            <StyledYTLink href={`https://www.youtube.com/playlist?list=${item.id}`} target='_blank'>
+              <FaYoutube />
+            </StyledYTLink>
           </StyledListItem>))}
         </StyledList>
     </div>
@@ -106,15 +133,34 @@ function App() {
 
 export default App;
 
+const StyledImageContainer = styled.div`
+  width: 30%;
+`
+const StyledImage = styled.img`
+  width: 25%;
+`
+
+const StyledRowContainer = styled.div`
+  display: flex;
+  flex-direction: row;
+  margin: 0px;
+  width: 100%;
+`
+
 const StyledInputContainer = styled.div`
   margin-top: 25px;
   margin-bottom: 25px;
 `
 
-const StyledImageContainer = styled.div`
-  margin-right: 25px;
-`
 
+const StyledYTLink = styled.a`
+  margin-left: 23px;
+  color: white;
+  font-size: 30px;
+  &:hover {
+    color: #004AAD;
+  }
+`
 const StyledInput = styled.input`
   font-family: DejaVu Sans Mono, monospace;
   background: none;
@@ -153,16 +199,9 @@ const StyledListItem = styled.div`
   transition: 0.3s;
 
   &:hover {
-    text-decoration: underline;
     background-color: gray;
   }
 `
 
-const StyledLink = styled.a`
-  text-decoration: none;
-  color: white;
-  &:hover {
-    text-decoration: underline;
-  }
-`
+
 
