@@ -1,5 +1,5 @@
 import './App.css';
-import React, { useEffect, useMemo, useState } from 'react';
+import React, { useMemo, useState } from 'react';
 import playlists from './seed.json';
 import styled from 'styled-components';
 // import YouTube from 'react-youtube';
@@ -8,22 +8,6 @@ import { FaYoutube } from "react-icons/fa";
 
 function App() {
 
-  const createImage  =  (item) =>  {
-
-
-    return (
-      <StyledImageContainer>
-      <StyledRowContainer>
-        <StyledImage src={item.snippet.thumbnails.default.url} alt={item.snippet.title}/>
-        <StyledImage src={item.snippet.thumbnails.default.url} alt={item.snippet.title}/>
-      </StyledRowContainer>
-      <StyledRowContainer>
-        <StyledImage src={item.snippet.thumbnails.default.url} alt={item.snippet.title}/>
-        <StyledImage src={item.snippet.thumbnails.default.url} alt={item.snippet.title}/>
-      </StyledRowContainer>
-    </StyledImageContainer>
-    )
-  }
   const [query, setQuery] = useState("");
   // const [queue, setQueue] = useState([]);
   // const [ current, setCurrent ]= useState("");
@@ -35,17 +19,17 @@ function App() {
     setQuery(_query)
   }
 
-  const getPlaylistItems = async (playlistId) => {
-    try {
-      const youtube_api_key = process.env.REACT_APP_API_KEY
-      const response = await fetch(`https://www.googleapis.com/youtube/v3/playlistItems?part=snippet%2CcontentDetails&maxResults=50&key=${youtube_api_key}&playlistId=${playlistId}`)
-      const json = await response.json();
-      const queueItems = json.items;
-      return queueItems.slice(0, 4)
-    } catch (error) {
-      console.log('error', error)
-    }
-  }
+  // const getPlaylistItems = async (playlistId) => {
+  //   try {
+  //     const youtube_api_key = process.env.REACT_APP_API_KEY
+  //     const response = await fetch(`https://www.googleapis.com/youtube/v3/playlistItems?part=snippet%2CcontentDetails&maxResults=50&key=${youtube_api_key}&playlistId=${playlistId}`)
+  //     const json = await response.json();
+  //     const queueItems = json.items;
+  //     return queueItems.slice(0, 4)
+  //   } catch (error) {
+  //     console.log('error', error)
+  //   }
+  // }
 
   return (
     <div className="App">
