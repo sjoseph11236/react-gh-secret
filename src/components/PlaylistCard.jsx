@@ -15,7 +15,7 @@ const PlaylistCard = ({ playlist: { id, snippet }, title }) => {
   return (
     <Card
       sx={{
-        width: { xs: "160px", sm: "358px", md: "320px" },
+        width: { xs: "190px", sm: "358px", md: "320px" },
         boxShadow: "none",
         borderRadius: 0,
       }}

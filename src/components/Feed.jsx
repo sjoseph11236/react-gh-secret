@@ -1,7 +1,7 @@
 import React from "react";
 import { useState, useMemo } from "react";
 import { Box, Stack, Typography } from "@mui/material";
-import { SideBar, Videos, HomeDetail, SearchFeed, SearchBar } from "./";
+import { SideBar, Videos, HomeDetail, SearchBar } from "./";
 import playlists from "../seed.json";
 import styled from "styled-components";
 
@@ -81,6 +81,8 @@ const Feed = () => {
             mb={2}
             sx={{ color: "white" }}
           >
+            {selectedCategory === "Playlists" && videos.length}
+            {selectedCategory === "Playlists" && " "}
             {selectedCategory !== "Home" && selectedCategory}
           </Typography>
           {renderCategory(selectedCategory)}

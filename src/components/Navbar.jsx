@@ -1,7 +1,6 @@
 import React from "react";
 import { Stack } from "@mui/material";
 import { Link } from "react-router-dom";
-import { SearchBar } from ".";
 import logo from "../assests/ponder.png";
 
 const Navbar = () => {
