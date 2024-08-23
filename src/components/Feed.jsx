@@ -40,8 +40,6 @@ const Feed = () => {
             <Videos videos={filteredItems} />;
           </>
         );
-      case "Search Videos":
-        return <SearchFeed />;
       default:
         return;
     }
