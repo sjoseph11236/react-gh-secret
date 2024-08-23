@@ -9,7 +9,7 @@ const SearchBar = () => {
 
   const handleSubmit = () => {
     if (searchTerm) {
-      navigate(`/react-gh-secret/search/${searchTerm}`);
+      navigate(`/search/${searchTerm}`);
       setSearchTerm("");
     }
   };
