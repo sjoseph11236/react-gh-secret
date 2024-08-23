@@ -7,7 +7,7 @@ import styled from "styled-components";
 
 const Feed = () => {
   const [selectedCategory, setSelectedCategory] = useState("Playlists");
-  const [videos, setVideos] = useState(playlists);
+  const [videos] = useState(playlists);
   const [query, setQuery] = useState("");
 
   const filteredItems = useMemo(() => {
