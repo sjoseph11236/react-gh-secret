@@ -1,17 +1,18 @@
 import React, { useState, useEffect } from "react";
-import { Link, useParams } from "react-router-dom";
-import ReactPlayer from "react-player";
+// import { Link, useParams } from "react-router-dom";
+// import ReactPlayer from "react-player";
 import { Typography, Box, Stack } from "@mui/material";
-import { CheckCircle } from "@mui/icons-material";
+// import { CheckCircle } from "@mui/icons-material";
 
 import { Videos, PlaylistCard, SideBar } from "./";
-import { fetchFromAPI } from "../utils/fetchFromAPI";
+// import { fetchFromAPI } from "../utils/fetchFromAPI";
 import playlists from "../seed.json";
+import { useParams } from "react-router-dom";
 
 const PlaylistDetail = () => {
-  const [selectedCategory, setSelectedCategory] = useState("Playlists");
+  // const [selectedCategory, setSelectedCategory] = useState("Playlists");
   const [playlistDetail, setPlaylistDetail] = useState(playlists[0]);
-  const [videoDetail, setVideoDetail] = useState(null);
+  // const [videoDetail, setVideoDetail] = useState(null);
   const [videos, setVideos] = useState(playlists);
   const { id } = useParams();
 
