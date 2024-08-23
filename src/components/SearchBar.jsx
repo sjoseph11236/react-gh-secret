@@ -5,27 +5,28 @@ import styled from "styled-components";
 
 const SearchBar = () => {
   const [searchTerm, setSearchTerm] = useState("");
-  const navigate = useNavigate(``);
+  const navigate = useNavigate("");
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
-
+  const handleSubmit = () => {
     if (searchTerm) {
       navigate(`/search/${searchTerm}`);
       setSearchTerm("");
     }
   };
+
   return (
     <>
       <StyledInputContainer>
-        <StyledInput
-          type="text"
-          placeholder="Filter playlists"
-          value=""
-          onInput={(e) => {
-            setSearchTerm(e.target.value);
-          }}
-        />
+        <form onSubmit={() => handleSubmit()}>
+          <StyledInput
+            type="text"
+            placeholder="Search..."
+            value={searchTerm}
+            onInput={(e) => {
+              setSearchTerm(e.target.value);
+            }}
+          />
+        </form>
       </StyledInputContainer>
     </>
   );
@@ -44,7 +45,7 @@ const StyledInput = styled.input`
   border-radius: 0;
   border: 0;
   padding: 5px 40px 4px 15px;
-  width: 30%;
+  width: 100%;
   transition: all 0.15s ease;
   border-bottom: 2px solid #004aad;
   outline: none;

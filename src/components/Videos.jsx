@@ -12,6 +12,7 @@ const Videos = ({ videos, direction }) => {
       justifyContent="start"
       alignItems="start"
       gap={2}
+      ml={"50px"}
     >
       {videos.map((item, idx) => (
         <Box key={idx}>

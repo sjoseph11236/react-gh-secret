@@ -2,14 +2,18 @@ import HomeIcon from "@mui/icons-material/Home";
 import FeedIcon from "@mui/icons-material/Feed";
 import AddBoxIcon from "@mui/icons-material/AddBox";
 import PlaylistPlayIcon from "@mui/icons-material/PlaylistPlay";
-import SearchIcon from "@mui/icons-material/Search";
+import ExploreIcon from "@mui/icons-material/Explore";
+import WorkspacesIcon from "@mui/icons-material/Workspaces";
+import LeaderboardIcon from "@mui/icons-material/Leaderboard";
 
 export const categories = [
   { name: "Home", icon: <HomeIcon /> },
   { name: "Playlists", icon: <PlaylistPlayIcon /> },
   { name: "Feed", icon: <FeedIcon /> },
   { name: "New Playlist", icon: <AddBoxIcon /> },
-  { name: "Search Videos", icon: <SearchIcon /> },
+  { name: "Discovery", icon: <ExploreIcon /> },
+  { name: "Aux", icon: <WorkspacesIcon /> },
+  { name: "Charts", icon: <LeaderboardIcon /> },
 ];
 
 export const demoThumbnailUrl = "https://i.ibb.co/G2L2Gwp/API-Course.png";
