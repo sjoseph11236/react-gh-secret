@@ -30,7 +30,7 @@ const Feed = () => {
             <StyledInputContainer>
               <StyledInput
                 type="text"
-                placeholder="Search playlists..."
+                placeholder="Search..."
                 value={query}
                 onInput={(e) => {
                   searchPlaylist(e.target.value);
