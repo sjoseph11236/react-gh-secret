@@ -1,7 +1,7 @@
 import React from "react";
 import { useState, useMemo } from "react";
 import { Box, Stack, Typography } from "@mui/material";
-import { SideBar, Videos, HomeDetail } from "./";
+import { SideBar, Videos, HomeDetail, SearchFeed } from "./";
 import playlists from "../seed.json";
 import styled from "styled-components";
 
@@ -40,6 +40,8 @@ const Feed = () => {
             <Videos videos={filteredItems} />;
           </>
         );
+      case "Search Videos":
+        return <SearchFeed />;
       default:
         return;
     }

@@ -12,19 +12,14 @@ import { Box } from "@mui/material";
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="react-gh-secret">
       <Box sx={{ backgroundColor: "#000" }}>
         <Navbar />
         <Routes>
           <Route path="/" exact element={<Feed />} />
-          <Route path="/react-gh-secret" exact element={<Feed />} />
           <Route path="/channel/:id" element={<ChannelDetail />} />
           <Route path="/playlist/:id" element={<PlaylistDetail />} />
-          <Route path="/search/:searchTerm" element={<SearchFeed />} />
-          <Route
-            path="/react-gh-secret/search/:searchTerm"
-            element={<SearchFeed />}
-          />
+          <Route path="/search/:searchTerm" element={<SearchFeed />} />\
           <Route path="/video/:id" element={<VideoDetail />} />
         </Routes>
       </Box>
