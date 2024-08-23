@@ -2,7 +2,7 @@ import React from "react";
 import { Stack } from "@mui/material";
 import { categories } from "../utils/constants";
 
-const SideBar = ({ selectedCategory, setSelectedCategory }) => {
+const SideBar = ({ selectedCategory, setSelectedCategory, setQuery }) => {
   return (
     <Stack
       direction="row"
@@ -16,6 +16,7 @@ const SideBar = ({ selectedCategory, setSelectedCategory }) => {
         <button
           onClick={() => {
             setSelectedCategory(category.name);
+            setQuery("");
           }}
           className="category-btn"
           style={{

@@ -30,7 +30,7 @@ const Feed = () => {
             <StyledInputContainer>
               <StyledInput
                 type="text"
-                placeholder="Filter playlists"
+                placeholder="Search playlists..."
                 value={query}
                 onInput={(e) => {
                   searchPlaylist(e.target.value);
@@ -62,6 +62,7 @@ const Feed = () => {
           <SideBar
             selectedCategory={selectedCategory}
             setSelectedCategory={setSelectedCategory}
+            setQuery={setQuery}
           />
           <Typography
             className="copyright"
