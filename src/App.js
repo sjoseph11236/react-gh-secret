@@ -1,5 +1,5 @@
 import React from "react";
-import { Routes, Route, BrowserRouter } from "react-router-dom";
+import { Routes, Route, BrowserRouter, HashRouter } from "react-router-dom";
 import {
   Navbar,
   Feed,
@@ -12,7 +12,7 @@ import { Box } from "@mui/material";
 
 function App() {
   return (
-    <BrowserRouter basename="react-gh-secret">
+    <HashRouter>
       <Box sx={{ backgroundColor: "#000" }}>
         <Navbar />
         <Routes>
@@ -23,7 +23,7 @@ function App() {
           <Route path="/video/:id" element={<VideoDetail />} />
         </Routes>
       </Box>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
