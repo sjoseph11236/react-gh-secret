@@ -11,12 +11,7 @@ import {
   demoChannelTitle,
 } from "../utils/constants";
 
-const PlaylistCard = ({
-  video: {
-    id: { videoId },
-    snippet,
-  },
-}) => {
+const VideoCard = ({ videoId, snippet }) => {
   return (
     <Card
       sx={{
@@ -57,4 +52,4 @@ const PlaylistCard = ({
   );
 };
 
-export default PlaylistCard;
+export default VideoCard;
