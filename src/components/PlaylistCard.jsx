@@ -7,9 +7,7 @@ import {
   demoVideoTitle,
   demoChannelTitle,
 } from "../utils/constants";
-import { SiYoutubemusic } from "react-icons/si";
-import { FaYoutube } from "react-icons/fa";
-import styled from "styled-components";
+import Badges from "./Badges";
 
 const PlaylistCard = ({ playlist: { id, snippet }, title }) => {
   return (
@@ -47,32 +45,10 @@ const PlaylistCard = ({ playlist: { id, snippet }, title }) => {
             ></CheckCircle>
           </Typography>
         )}
-        <StyledYTLink
-          href={`https://music.youtube.com/playlist?list=${id}`}
-          target="_blank"
-        >
-          <SiYoutubemusic />
-        </StyledYTLink>
-        <StyledYTLink
-          href={`https://www.youtube.com/playlist?list=${id}`}
-          target="_blank"
-        >
-          <FaYoutube />
-        </StyledYTLink>
+        <Badges id={id} />
       </CardContent>
     </Card>
   );
 };
 
 export default PlaylistCard;
-
-const StyledYTLink = styled.a`
-  margin-left: 0px;
-  margin-right: 10px;
-  margin-bottom: 10px;
-  color: white;
-  font-size: 30px;
-  &:hover {
-    color: #004aad;
-  }
-`;

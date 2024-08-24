@@ -1,3 +1,4 @@
+export { default as Badges } from "./Badges";
 export { default as ChannelCard } from "./ChannelCard";
 export { default as ChannelDetail } from "./ChannelDetail";
 export { default as Feed } from "./Feed";
