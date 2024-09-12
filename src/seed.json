@@ -1,6 +1,236 @@
 [
   {
     "kind": "youtube#playlist",
+    "etag": "yWVCuZG-X2-xplcOI7_AYgB4-7o",
+    "id": "PLqbGwD2Zp_BYTktJWmdpbJivTPzNfyEkV",
+    "snippet": {
+      "publishedAt": "2024-09-05T14:39:51Z",
+      "channelId": "UCCj88q3bb5OnVznn7hUY_9Q",
+      "title": "Fall 2024 Vol. 1",
+      "description": "",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/gndkFhYh5Mo/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/gndkFhYh5Mo/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/gndkFhYh5Mo/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/gndkFhYh5Mo/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/gndkFhYh5Mo/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "channelTitle": "Sayeed Joseph",
+      "localized": {
+        "title": "Fall 2024 Vol. 1",
+        "description": ""
+      }
+    },
+    "contentDetails": {
+      "itemCount": 49
+    }
+  },
+  {
+    "kind": "youtube#playlist",
+    "etag": "zLhmfBSGtmaoe8D0gmbkXMtQMZo",
+    "id": "PLqbGwD2Zp_BbO27dsepKMlLlOd5ILsnu4",
+    "snippet": {
+      "publishedAt": "2024-09-03T03:03:37Z",
+      "channelId": "UCCj88q3bb5OnVznn7hUY_9Q",
+      "title": "Get Top On the phone",
+      "description": "",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/CN6pWd9v868/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/CN6pWd9v868/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/CN6pWd9v868/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/CN6pWd9v868/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/CN6pWd9v868/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "channelTitle": "Sayeed Joseph",
+      "localized": {
+        "title": "Get Top On the phone",
+        "description": ""
+      }
+    },
+    "contentDetails": {
+      "itemCount": 109
+    }
+  },
+  {
+    "kind": "youtube#playlist",
+    "etag": "M16r3aov2L8ERpH_dBveD_81Haw",
+    "id": "PLqbGwD2Zp_BYZRuleqVe4KjIUn_oP-D1J",
+    "snippet": {
+      "publishedAt": "2024-08-31T08:57:19Z",
+      "channelId": "UCCj88q3bb5OnVznn7hUY_9Q",
+      "title": "Outside Vol. 1",
+      "description": "",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/Y6AEkPeMSvA/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/Y6AEkPeMSvA/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/Y6AEkPeMSvA/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/Y6AEkPeMSvA/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/Y6AEkPeMSvA/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "channelTitle": "Sayeed Joseph",
+      "localized": {
+        "title": "Outside Vol. 1",
+        "description": ""
+      }
+    },
+    "contentDetails": {
+      "itemCount": 83
+    }
+  },
+  {
+    "kind": "youtube#playlist",
+    "etag": "SKYRCsGJkEYtMfsEA5qqQQDIbrk",
+    "id": "PLqbGwD2Zp_BblIN15mLB-CUhHvf4skRsk",
+    "snippet": {
+      "publishedAt": "2024-08-30T18:14:13Z",
+      "channelId": "UCCj88q3bb5OnVznn7hUY_9Q",
+      "title": "Testing Vol. 1",
+      "description": "",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/fEnsegzNutc/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/fEnsegzNutc/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/fEnsegzNutc/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/fEnsegzNutc/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/fEnsegzNutc/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "channelTitle": "Sayeed Joseph",
+      "localized": {
+        "title": "Testing Vol. 1",
+        "description": ""
+      }
+    },
+    "contentDetails": {
+      "itemCount": 15
+    }
+  },
+  {
+    "kind": "youtube#playlist",
+    "etag": "XNK5BJaGkRDrAg2Yu5B_Wt28hnY",
+    "id": "PLqbGwD2Zp_BbGyENMfiihIV9DPrMRfc5t",
+    "snippet": {
+      "publishedAt": "2024-08-27T20:11:02Z",
+      "channelId": "UCCj88q3bb5OnVznn7hUY_9Q",
+      "title": "The Battle Vol. 1",
+      "description": "",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/YqAt8-QiBcI/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/YqAt8-QiBcI/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/YqAt8-QiBcI/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/YqAt8-QiBcI/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/YqAt8-QiBcI/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "channelTitle": "Sayeed Joseph",
+      "localized": {
+        "title": "The Battle Vol. 1",
+        "description": ""
+      }
+    },
+    "contentDetails": {
+      "itemCount": 4
+    }
+  },
+  {
+    "kind": "youtube#playlist",
     "etag": "ldxN4ienW4rIXPO3uPa2J5kQkk8",
     "id": "PLqbGwD2Zp_BabM80IoucdsHwQ2hny83Ym",
     "snippet": {
@@ -139,7 +369,7 @@
   },
   {
     "kind": "youtube#playlist",
-    "etag": "oYljuQhqUYXVtAUyBvzrUb0yRLU",
+    "etag": "vavqW1bGoukukGtVS4gkbrK5eko",
     "id": "PLqbGwD2Zp_BZW-hyF0AAM5JNugvj-jvwh",
     "snippet": {
       "publishedAt": "2024-07-27T20:43:37Z",
@@ -180,7 +410,7 @@
       }
     },
     "contentDetails": {
-      "itemCount": 6
+      "itemCount": 7
     }
   },
   {
@@ -1606,7 +1836,7 @@
   },
   {
     "kind": "youtube#playlist",
-    "etag": "vD9g6eh_OT_olieqrtOG2Qu9gwI",
+    "etag": "j2HDcvMiB8q2kip_4xKnk7bRsWo",
     "id": "PLqbGwD2Zp_BbqvHfQR-EvwsPC9VO8d-u0",
     "snippet": {
       "publishedAt": "2024-03-26T09:18:32Z",
@@ -1647,7 +1877,7 @@
       }
     },
     "contentDetails": {
-      "itemCount": 241
+      "itemCount": 242
     }
   },
   {
