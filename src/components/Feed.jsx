@@ -1,20 +1,38 @@
-import React from "react";
-import { useState, useMemo } from "react";
+import React, { useEffect, useState, useMemo } from "react";
 import { Box, Stack, Typography } from "@mui/material";
-import { SideBar, Videos, HomeDetail } from "./";
-import playlists from "../seed.json";
+import { SideBar, Videos, HomeDetail, FeedDetail } from "./";
 import styled from "styled-components";
 
 const Feed = () => {
   const [selectedCategory, setSelectedCategory] = useState("Playlists");
-  const [videos] = useState(playlists);
+  const [playlists, setPlaylists] = useState([]);
+  const [videos, setVideos] = useState([]);
   const [query, setQuery] = useState("");
+
+  useEffect(() => {
+    fetchPlaylists();
+  }, []);
+
+  const fetchPlaylists = async () => {
+    try {
+      const response = await fetch(
+        "http://ponder-svc-sandbox.us-east-1.elasticbeanstalk.com/playlists"
+      );
+      const data = await response.json();
+      setPlaylists(data);
+      setVideos(data);
+    } catch (error) {
+      console.log(
+        `An issue has occurred while fetching playlist Items ${error}`
+      );
+    }
+  };
 
   const filteredItems = useMemo(() => {
     return playlists.filter((item) =>
       item.snippet.title.toLowerCase().includes(query.toLowerCase())
     );
-  }, [query]);
+  }, [playlists, query]);
 
   const searchPlaylist = (_query) => {
     setQuery(_query);
@@ -24,6 +42,8 @@ const Feed = () => {
     switch (category) {
       case "Home":
         return <HomeDetail />;
+      case "Feed":
+        return <FeedDetail />;
       case "Playlists":
         return (
           <>
