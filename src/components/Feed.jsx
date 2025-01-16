@@ -1,6 +1,7 @@
 import React, { useEffect, useState, useMemo } from "react";
 import { Box, Stack, Typography } from "@mui/material";
 import { SideBar, Videos, HomeDetail, FeedDetail } from "./";
+import _playlists from "../seed.json";
 import styled from "styled-components";
 
 const Feed = () => {
@@ -25,6 +26,9 @@ const Feed = () => {
       console.log(
         `An issue has occurred while fetching playlist Items ${error}`
       );
+      console.log("Showing Demo playlists");
+      setPlaylists(_playlists);
+      setVideos(_playlists);
     }
   };
 
