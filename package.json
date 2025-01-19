@@ -2,7 +2,7 @@
   "name": "react-gh-pages-secrets-demo",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://www.pondermedia.live",
+  "homepage": "http://www.pondermedia.live",
   "dependencies": {
     "@emotion/react": "^11.10.0",
     "@emotion/styled": "^11.10.0",
