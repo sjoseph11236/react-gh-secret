@@ -46,11 +46,8 @@ jobs:
         run: ${{ steps.detect-package-manager.outputs.manager }} ${{ steps.detect-package-manager.outputs.command }}
       - name: Build project
         run: ${{ steps.detect-package-manager.outputs.runner }} npm run build
-      - name: Check build folder contents (for debugging)
-        run: |
-          ls -l ./build
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
+        uses: actions/upload-pages-artifact@v1
         with:
           path: ./build
   # Deployment job
