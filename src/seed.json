@@ -185,7 +185,7 @@
   },
   {
     "kind": "youtube#playlist",
-    "etag": "3NYRtclPfH8LSALAm6pKr0_1mbY",
+    "etag": "CQJuh0BJSifjWqyvL1I0rNxCvL8",
     "id": "PLqbGwD2Zp_BYnuC2RTpyhujzHfi-mlFmB",
     "snippet": {
       "publishedAt": "2025-01-07T04:52:01.588449Z",
@@ -226,7 +226,7 @@
       }
     },
     "contentDetails": {
-      "itemCount": 46
+      "itemCount": 42
     }
   },
   {
@@ -323,7 +323,7 @@
   },
   {
     "kind": "youtube#playlist",
-    "etag": "DUCujbSfnszRCFx7OZ6sXkQr0CY",
+    "etag": "5QH0AsS_pVFAFW1V3K3MkT_gqxY",
     "id": "PLqbGwD2Zp_BbYd-bwNIuqJZe41lSv5You",
     "snippet": {
       "publishedAt": "2024-12-31T15:06:13.168141Z",
@@ -332,27 +332,27 @@
       "description": "",
       "thumbnails": {
         "default": {
-          "url": "https://i.ytimg.com/vi/hqvcww4ydh8/default.jpg",
+          "url": "https://i.ytimg.com/vi/Rr1Cdli5nE8/default.jpg",
           "width": 120,
           "height": 90
         },
         "medium": {
-          "url": "https://i.ytimg.com/vi/hqvcww4ydh8/mqdefault.jpg",
+          "url": "https://i.ytimg.com/vi/Rr1Cdli5nE8/mqdefault.jpg",
           "width": 320,
           "height": 180
         },
         "high": {
-          "url": "https://i.ytimg.com/vi/hqvcww4ydh8/hqdefault.jpg",
+          "url": "https://i.ytimg.com/vi/Rr1Cdli5nE8/hqdefault.jpg",
           "width": 480,
           "height": 360
         },
         "standard": {
-          "url": "https://i.ytimg.com/vi/hqvcww4ydh8/sddefault.jpg",
+          "url": "https://i.ytimg.com/vi/Rr1Cdli5nE8/sddefault.jpg",
           "width": 640,
           "height": 480
         },
         "maxres": {
-          "url": "https://i.ytimg.com/vi/hqvcww4ydh8/maxresdefault.jpg",
+          "url": "https://i.ytimg.com/vi/Rr1Cdli5nE8/maxresdefault.jpg",
           "width": 1280,
           "height": 720
         }
@@ -364,7 +364,7 @@
       }
     },
     "contentDetails": {
-      "itemCount": 151
+      "itemCount": 155
     }
   },
   {
@@ -635,7 +635,7 @@
   },
   {
     "kind": "youtube#playlist",
-    "etag": "UJvdNXdzT_fIjrSH6PZpR0FnQic",
+    "etag": "8hxNjbXKfmxPJURO21NzVkmEDis",
     "id": "PLqbGwD2Zp_BYydeiphvXvwdAEGsDALgVq",
     "snippet": {
       "publishedAt": "2024-11-25T20:36:44.27809Z",
@@ -676,7 +676,7 @@
       }
     },
     "contentDetails": {
-      "itemCount": 55
+      "itemCount": 43
     }
   },
   {
@@ -3022,7 +3022,7 @@
   },
   {
     "kind": "youtube#playlist",
-    "etag": "k5kA16HmJo6uyUrTN0Y1vJFIGkE",
+    "etag": "BoYUq8lQ7tkKjgpy8MRIVQk_olw",
     "id": "PLqbGwD2Zp_BZURgwdO6j2QsqviDI1nsnl",
     "snippet": {
       "publishedAt": "2024-02-20T03:43:13.687987Z",
@@ -3063,7 +3063,7 @@
       }
     },
     "contentDetails": {
-      "itemCount": 125
+      "itemCount": 127
     }
   },
   {
