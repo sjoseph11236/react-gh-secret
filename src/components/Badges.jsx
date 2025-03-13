@@ -1,7 +1,9 @@
 import React from "react";
 import { SiYoutubemusic } from "react-icons/si";
 import { FaYoutube } from "react-icons/fa";
+import { MdPlaylistPlay } from "react-icons/md";
 import styled from "styled-components";
+import { Link } from "react-router-dom";
 
 const Badges = ({ id }) => {
   return (
@@ -18,6 +20,11 @@ const Badges = ({ id }) => {
       >
         <FaYoutube />
       </StyledYTLink>
+      <Link to={`/playlist/${id}`}>
+        <StyledYTLink>
+          <MdPlaylistPlay />
+        </StyledYTLink>
+      </Link>
     </>
   );
 };

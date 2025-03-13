@@ -9,7 +9,7 @@ import {
 } from "../utils/constants";
 import Badges from "./Badges";
 
-const PlaylistCard = ({ playlist: { id, snippet }, title }) => {
+const PlaylistCard = ({ playlist: { id, snippet, contentDetails }, title }) => {
   return (
     <Card
       sx={{
@@ -23,7 +23,7 @@ const PlaylistCard = ({ playlist: { id, snippet }, title }) => {
         alt={snippet?.title}
         sx={{ width: { xs: "100%", sm: "358px" }, height: 180 }}
       />
-      <CardContent sx={{ backgroundColor: "#1E1E1E", height: "115px" }}>
+      <CardContent sx={{ backgroundColor: "#1E1E1E", height: "70px" }}>
         {title && (
           <Typography color="#fff" variant="h5" fontWeight="bold">
             {title}
@@ -38,8 +38,10 @@ const PlaylistCard = ({ playlist: { id, snippet }, title }) => {
         )}
 
         {!title && (
-          <Typography variant="subtitle2" color="grey">
-            {snippet?.title?.slice(0, 60) || demoChannelTitle.slice(0, 60)}
+          <Typography variant="subtitle2" color="grey" mb={"5px"}>
+            {snippet?.channelTitle?.slice(0, 60) || ""}
+            {" - "}
+            {contentDetails.itemCount} tracks
             <CheckCircle
               sx={{ fontSize: "12px", color: "gray", ml: "5px" }}
             ></CheckCircle>
