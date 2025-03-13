@@ -1,4 +1,4 @@
-import React, { useEffect, useState, useMemo } from "react";
+import React, { useState, useMemo } from "react";
 import { Box, Stack, Typography } from "@mui/material";
 import { SideBar, Videos, HomeDetail, FeedDetail } from "./";
 import _playlists from "../seed.json";
@@ -6,37 +6,13 @@ import styled from "styled-components";
 
 const Feed = () => {
   const [selectedCategory, setSelectedCategory] = useState("Playlists");
-  const [playlists, setPlaylists] = useState([]);
-  const [videos, setVideos] = useState([]);
   const [query, setQuery] = useState("");
 
-  useEffect(() => {
-    fetchPlaylists();
-  }, []);
-
-  const fetchPlaylists = async () => {
-    try {
-      const response = await fetch(
-        "http://ponder-svc-sandbox.us-east-1.elasticbeanstalk.com/playlists"
-      );
-      const data = await response.json();
-      setPlaylists(data);
-      setVideos(data);
-    } catch (error) {
-      console.log(
-        `An issue has occurred while fetching playlist Items ${error}`
-      );
-      console.log("Showing Demo playlists");
-      setPlaylists(_playlists);
-      setVideos(_playlists);
-    }
-  };
-
   const filteredItems = useMemo(() => {
-    return playlists.filter((item) =>
+    return _playlists.filter((item) =>
       item.snippet.title.toLowerCase().includes(query.toLowerCase())
     );
-  }, [playlists, query]);
+  }, [query]);
 
   const searchPlaylist = (_query) => {
     setQuery(_query);
@@ -93,7 +69,7 @@ const Feed = () => {
             variant="body2"
             sx={{ mt: 1.5, color: "#fff" }}
           >
-            Copyright © 2024 Ponder
+            Copyright © 2025 Ponder Media
           </Typography>
         </Box>
         {/* Videos */}
@@ -104,7 +80,7 @@ const Feed = () => {
             mb={2}
             sx={{ color: "white" }}
           >
-            {selectedCategory === "Playlists" && videos.length}
+            {selectedCategory === "Playlists" && _playlists.length}
             {selectedCategory === "Playlists" && " "}
             {selectedCategory !== "Home" && selectedCategory}
           </Typography>
