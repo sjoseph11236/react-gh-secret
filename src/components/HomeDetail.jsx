@@ -26,11 +26,11 @@ const HomeDetail = () => {
           mb={2}
           sx={{ color: "white" }}
         >
-          Welcome to Ponder
+          Welcome to Ponder Media
         </Typography>
         <Typography mb={2} sx={{ color: "white" }}>
-          A platform for users to create music playlist, annotate popular media
-          and connect through shared thoughts and interests.
+          A hub for users to create music playlist, annotate popular media and
+          connect through shared thoughts and interests.
         </Typography>
         <Typography
           variant="h4"

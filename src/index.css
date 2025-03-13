@@ -1,5 +1,5 @@
 body {
-  background: #1A1A1A;
+  background: #000;
 }
 
 html,
@@ -8,7 +8,6 @@ body {
   padding: 0;
   box-sizing: border-box;
 }
-
 
 h1 {
   color: white;
@@ -39,11 +38,11 @@ a {
 }
 
 .category-btn:hover {
-  background-color: #004AAD !important;
+  background-color: #004aad !important;
   color: white !important;
 }
 
-.category-btn:hover span{
+.category-btn:hover span {
   color: white !important;
 }
 
@@ -52,20 +51,20 @@ a {
   width: 100% !important;
 }
 
-.search-bar{
+.search-bar {
   font-family: DejaVu Sans Mono, monospace;
-  border:none;
-  outline:none;
-  width:350px;
+  border: none;
+  outline: none;
+  width: 350px;
 }
 
-.category-btn{
+.category-btn {
   font-weight: bold !important;
   text-transform: capitalize;
   display: flex;
   align-items: center;
   justify-content: start;
-  cursor:pointer;
+  cursor: pointer;
   background: transparent;
   outline: none;
   border: none;
@@ -77,14 +76,14 @@ a {
 }
 
 @media screen and (max-width: 900px) {
-  .category-btn{
+  .category-btn {
     margin: 10px;
   }
 }
 
-@media screen and (max-width:800px){
-  .copyright{
-    display:none !important;
+@media screen and (max-width: 800px) {
+  .copyright {
+    display: none !important;
   }
 }
 
@@ -96,7 +95,7 @@ a {
   .react-player {
     height: 45vh !important;
   }
-  .search-bar{
-    width:200px;
+  .search-bar {
+    width: 200px;
   }
 }
