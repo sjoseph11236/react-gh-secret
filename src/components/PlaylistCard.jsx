@@ -39,7 +39,8 @@ const PlaylistCard = ({ playlist: { id, snippet, contentDetails }, title }) => {
 
         {!title && (
           <Typography variant="subtitle2" color="grey" mb={"5px"}>
-            {snippet?.channelTitle?.slice(0, 60) || ""}
+            {snippet?.channelTitle?.slice(0, 60) ||
+              demoChannelTitle.slice(0, 60)}
             {" - "}
             {contentDetails.itemCount} tracks
             <CheckCircle
