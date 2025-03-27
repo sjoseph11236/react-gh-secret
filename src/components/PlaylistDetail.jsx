@@ -22,7 +22,6 @@ const PlaylistDetail = () => {
       .catch((e) => {
         const { response } = e;
         if (response?.status === 429) {
-          console.log("HELLO WORLD");
           return;
         }
         console.log("error =>", response);

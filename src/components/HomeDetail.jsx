@@ -1,10 +1,9 @@
 import React from "react";
 import logo from "../assests/ponder.png";
 import { Box, Stack, Typography } from "@mui/material";
-import playlists from "../seed.json";
 import { Videos } from "./";
 
-const HomeDetail = () => {
+const HomeDetail = ({ playlists }) => {
   return (
     <Stack
       direction="column"
