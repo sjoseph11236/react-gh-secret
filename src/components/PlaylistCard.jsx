@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState, useCallback } from "react";
 import { Typography, Card, CardContent, CardMedia } from "@mui/material";
 import { CheckCircle } from "@mui/icons-material";
 import { Link } from "react-router-dom";
@@ -8,6 +8,8 @@ import {
   demoChannelTitle,
 } from "../utils/constants";
 import Badges from "./Badges";
+// import Artwork from "./Artwork";
+import styled from "styled-components";
 
 const PlaylistCard = ({ playlist: { id, snippet, contentDetails }, title }) => {
   return (
@@ -19,6 +21,7 @@ const PlaylistCard = ({ playlist: { id, snippet, contentDetails }, title }) => {
       }}
     >
       <CardMedia
+        // component={() => <Artwork albums={albums} />}
         image={snippet?.thumbnails?.high?.url || demoThumbnailUrl}
         alt={snippet?.title}
         sx={{ width: { xs: "100%", sm: "358px" }, height: 180 }}
@@ -31,12 +34,12 @@ const PlaylistCard = ({ playlist: { id, snippet, contentDetails }, title }) => {
         )}
         {!title && (
           <Link to={`/playlist/${id}`}>
-            <Typography variant="subtitle1" fontWeight="bold" color="#FFF">
+            <StyledTitle variant="subtitle1" fontWeight="bold" color="#FFF">
               {snippet?.title?.slice(0, 60) || demoVideoTitle.slice(0, 60)}
-            </Typography>
+            </StyledTitle>
           </Link>
         )}
-
+        {/* TODO: Link to channel  */}
         {!title && (
           <Typography variant="subtitle2" color="grey" mb={"5px"}>
             {snippet?.channelTitle?.slice(0, 60) ||
@@ -55,3 +58,9 @@ const PlaylistCard = ({ playlist: { id, snippet, contentDetails }, title }) => {
 };
 
 export default PlaylistCard;
+
+const StyledTitle = styled(Typography)`
+  &:hover {
+    text-decoration: underline;
+  }
+`;
