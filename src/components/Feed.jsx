@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import { Box, Stack, Typography } from "@mui/material";
 import { SideBar, HomeDetail, FeedDetail, Loading, Playlists } from "./";
 import { getPlaylists } from "../utils/fetchFromAPI.js";
+import _playlists from "../seed.json";
 
 const Feed = () => {
   const [selectedCategory, setSelectedCategory] = useState("Playlists");
@@ -12,10 +13,12 @@ const Feed = () => {
 
   const fetchPlaylists = async () => {
     try {
-      const data = await getPlaylists();
+      const data = (await getPlaylists()) || _playlists;
       setPlaylists(data);
     } catch (error) {
       console.error("Error fetching playlists:", error);
+      console.log("using seed data");
+      setPlaylists(_playlists);
       setError("Failed to load playlists");
     } finally {
       setIsLoading(false);

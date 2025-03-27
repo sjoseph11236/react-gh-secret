@@ -39,7 +39,7 @@ const HomeDetail = ({ playlists }) => {
         >
           Listen Again
         </Typography>
-        <Videos videos={playlists} />;
+        <Videos videos={playlists} />
       </Box>
     </Stack>
   );
