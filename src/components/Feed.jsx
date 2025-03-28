@@ -19,7 +19,7 @@ const Feed = () => {
       console.error("Error fetching playlists:", error);
       console.log("using seed data");
       setPlaylists(_playlists);
-      setError("Failed to load playlists");
+      setError("Failed using seed data.");
     } finally {
       setIsLoading(false);
     }
