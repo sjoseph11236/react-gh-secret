@@ -21,8 +21,8 @@ export const fetchFromAPI = async (url) => {
 
 export const getPlaylists = async () => {
   try {
-    const response = await fetch(process.env.REACT_APP_S3_URL);
     console.log("Resolved S3 URL:", process.env.REACT_APP_S3_URL);
+    const response = await fetch(process.env.REACT_APP_S3_URL);
     console.log("getPlaylists response: ", response);
     const data = await response.json();
     return data;
