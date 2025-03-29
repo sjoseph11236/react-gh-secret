@@ -17,6 +17,8 @@ jobs:
     env:
       REACT_APP_API_KEY: ${{ secrets.REACT_APP_API_KEY }}
       REACT_APP_RAPID_KEY: ${{ secrets.REACT_APP_RAPID_KEY }}
+      REACT_APP_S3_URL: ${{ secrets.REACT_APP_S3_URL }}
+      REACT_APP_SYNC_API_URL: ${{ secrets.REACT_APP_SYNC_API_URL }}
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
