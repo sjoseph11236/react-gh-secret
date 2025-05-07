@@ -1,6 +1,144 @@
 [
   {
     "kind": "youtube#playlist",
+    "etag": "vxAH6h132Wq5viYdYMCBYmv6fko",
+    "id": "PLqbGwD2Zp_BZXgEYFGKTmb6QoAiGy1N89",
+    "snippet": {
+      "publishedAt": "2025-05-07T13:34:06.173425Z",
+      "channelId": "UCCj88q3bb5OnVznn7hUY_9Q",
+      "title": "Sah’s Bible Vol. 3",
+      "description": "Sah’s Bible Vol. 2: The Journey to 30  This playlist is meant to be played strictly in order — either as one continuous journey or by listening to each chapter as its own emotional section.  It’s a 30-song soundtrack exploring my personal journey to age 30 — a musical mirror reflecting grief, growth, love, blind spots, faith, and legacy.  Chapter 1: MIRROR / SELF Facing old wounds, regrets, and truths I can no longer outrun — because now, I walk. I walk with what I carry, no longer sprinting away from my shadow but learning to move beside it.  Chapter 2: WORLD / RELATIONSHIPS Moving outward into love, heartbreak, community, betrayal, and the dance of connection. Here I wrestle with trust, boundaries, and the longing to be seen without losing myself.  Chapter 3: FAITH / LEGACY Surrendering what I can’t control, reconnecting with faith, and stepping into purpose. Here I rise not as someone perfect, but as someone willing to keep walking toward the light.  This playlist is my prayer, my confession, and my celebration — a reminder that even when life feels messy, love is stronger than pride, and in the end… we’re gonna be alright.",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/HCPjVeFR6NU/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/HCPjVeFR6NU/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/HCPjVeFR6NU/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/HCPjVeFR6NU/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/HCPjVeFR6NU/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "channelTitle": "Sayeed Joseph",
+      "localized": {
+        "title": "Sah’s Bible Vol. 3",
+        "description": "Sah’s Bible Vol. 2: The Journey to 30  This playlist is meant to be played strictly in order — either as one continuous journey or by listening to each chapter as its own emotional section.  It’s a 30-song soundtrack exploring my personal journey to age 30 — a musical mirror reflecting grief, growth, love, blind spots, faith, and legacy.  Chapter 1: MIRROR / SELF Facing old wounds, regrets, and truths I can no longer outrun — because now, I walk. I walk with what I carry, no longer sprinting away from my shadow but learning to move beside it.  Chapter 2: WORLD / RELATIONSHIPS Moving outward into love, heartbreak, community, betrayal, and the dance of connection. Here I wrestle with trust, boundaries, and the longing to be seen without losing myself.  Chapter 3: FAITH / LEGACY Surrendering what I can’t control, reconnecting with faith, and stepping into purpose. Here I rise not as someone perfect, but as someone willing to keep walking toward the light.  This playlist is my prayer, my confession, and my celebration — a reminder that even when life feels messy, love is stronger than pride, and in the end… we’re gonna be alright."
+      }
+    },
+    "contentDetails": {
+      "itemCount": 26
+    }
+  },
+  {
+    "kind": "youtube#playlist",
+    "etag": "sdfdqIX4I85O9QHjOSEH0xU8_-U",
+    "id": "PLqbGwD2Zp_BYlnH0ViVzWnAnGviZtdNS8",
+    "snippet": {
+      "publishedAt": "2025-05-07T13:21:30.600345Z",
+      "channelId": "UCCj88q3bb5OnVznn7hUY_9Q",
+      "title": "For Me Vol. 10",
+      "description": "",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/ynv6w5L9y-w/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/ynv6w5L9y-w/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/ynv6w5L9y-w/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/ynv6w5L9y-w/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/ynv6w5L9y-w/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "channelTitle": "Sayeed Joseph",
+      "localized": {
+        "title": "For Me Vol. 10",
+        "description": ""
+      }
+    },
+    "contentDetails": {
+      "itemCount": 7
+    }
+  },
+  {
+    "kind": "youtube#playlist",
+    "etag": "FFLvJPrCa1PG7-F8Rdn44qp5niA",
+    "id": "PLqbGwD2Zp_BY79i-4MRxCk3QVDH91GYF7",
+    "snippet": {
+      "publishedAt": "2025-05-06T04:17:41.95674Z",
+      "channelId": "UCCj88q3bb5OnVznn7hUY_9Q",
+      "title": "For Me Vol. 3",
+      "description": "",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/T9Sw9s_VMSI/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/T9Sw9s_VMSI/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/T9Sw9s_VMSI/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/T9Sw9s_VMSI/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/T9Sw9s_VMSI/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "channelTitle": "Sayeed Joseph",
+      "localized": {
+        "title": "For Me Vol. 3",
+        "description": ""
+      }
+    },
+    "contentDetails": {
+      "itemCount": 41
+    }
+  },
+  {
+    "kind": "youtube#playlist",
     "etag": "zhcb0Uk97JXWWy87xx9fLDGj_y8",
     "id": "PLqbGwD2Zp_Bb-v55oRZ6dvKnUklrPpWkR",
     "snippet": {
@@ -47,7 +185,7 @@
   },
   {
     "kind": "youtube#playlist",
-    "etag": "HBM-ThRdV9jHw0VcmMOCDT96suI",
+    "etag": "3uW-DvAiXca-XYbEIzHBfD5jXWs",
     "id": "PLqbGwD2Zp_BbMiLRvpjm-BTs9tDnuVUfh",
     "snippet": {
       "publishedAt": "2025-05-02T12:44:05.856722Z",
@@ -88,7 +226,7 @@
       }
     },
     "contentDetails": {
-      "itemCount": 6
+      "itemCount": 8
     }
   },
   {
@@ -139,7 +277,7 @@
   },
   {
     "kind": "youtube#playlist",
-    "etag": "r-Vq0pZhKIuXVO_ul1Qsryf13G8",
+    "etag": "F6VsL-OKCGqtiaX3VnohcrWr9wE",
     "id": "PLqbGwD2Zp_BYFvb9YlypyzGBvJ_Ne4GkH",
     "snippet": {
       "publishedAt": "2025-04-29T05:19:16.610322Z",
@@ -180,7 +318,7 @@
       }
     },
     "contentDetails": {
-      "itemCount": 8
+      "itemCount": 9
     }
   },
   {
@@ -277,12 +415,12 @@
   },
   {
     "kind": "youtube#playlist",
-    "etag": "ZHJagpU7u542tNr31I8mccqof4k",
+    "etag": "W-j2Z9oJ77AGHHh7HC0s0lNX2Gk",
     "id": "PLqbGwD2Zp_BbCHMz7w-4F_-53Z8F0gdO5",
     "snippet": {
       "publishedAt": "2025-04-29T04:26:25.275591Z",
       "channelId": "UCCj88q3bb5OnVznn7hUY_9Q",
-      "title": "For Me Vol. 7",
+      "title": "For Me Vol. 6",
       "description": "",
       "thumbnails": {
         "default": {
@@ -313,7 +451,7 @@
       },
       "channelTitle": "Sayeed Joseph",
       "localized": {
-        "title": "For Me Vol. 7",
+        "title": "For Me Vol. 6",
         "description": ""
       }
     },
@@ -369,7 +507,7 @@
   },
   {
     "kind": "youtube#playlist",
-    "etag": "d4tgKkhc65cOsF0SlbWowGD9KrI",
+    "etag": "FmgZq5KHxiw_pmB85Hdq7ytVAhw",
     "id": "PLqbGwD2Zp_Ba_rKR5ZV6oJWYXu-oxSSaK",
     "snippet": {
       "publishedAt": "2025-04-28T07:01:47.360073Z",
@@ -410,58 +548,12 @@
       }
     },
     "contentDetails": {
-      "itemCount": 2
+      "itemCount": 6
     }
   },
   {
     "kind": "youtube#playlist",
-    "etag": "Xws4I5i-wdnN8gWpAkJDeYgVL9U",
-    "id": "PLqbGwD2Zp_BbfR3Wgv8RPn_fKW_G3-9PI",
-    "snippet": {
-      "publishedAt": "2025-04-28T04:04:12.583025Z",
-      "channelId": "UCCj88q3bb5OnVznn7hUY_9Q",
-      "title": "For Me Vol. 3",
-      "description": "",
-      "thumbnails": {
-        "default": {
-          "url": "https://i.ytimg.com/vi/T9Sw9s_VMSI/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        "medium": {
-          "url": "https://i.ytimg.com/vi/T9Sw9s_VMSI/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        "high": {
-          "url": "https://i.ytimg.com/vi/T9Sw9s_VMSI/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        "standard": {
-          "url": "https://i.ytimg.com/vi/T9Sw9s_VMSI/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        "maxres": {
-          "url": "https://i.ytimg.com/vi/T9Sw9s_VMSI/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      },
-      "channelTitle": "Sayeed Joseph",
-      "localized": {
-        "title": "For Me Vol. 3",
-        "description": ""
-      }
-    },
-    "contentDetails": {
-      "itemCount": 30
-    }
-  },
-  {
-    "kind": "youtube#playlist",
-    "etag": "gLeSbCueRr8jterDDkNLf5wbPxQ",
+    "etag": "JykOKtjW1VPJYNydTMVkKeHtJZs",
     "id": "PLqbGwD2Zp_Ba7QCX09fQdQVPLJ1WV31jn",
     "snippet": {
       "publishedAt": "2025-04-28T01:57:43.621634Z",
@@ -502,12 +594,12 @@
       }
     },
     "contentDetails": {
-      "itemCount": 25
+      "itemCount": 29
     }
   },
   {
     "kind": "youtube#playlist",
-    "etag": "3sqAMLkjspHXP4y82pfen2bKsGM",
+    "etag": "HCRqcI8e_MVCs7YNtlkP3PC5xcM",
     "id": "PLqbGwD2Zp_BYD23PQ53MY2VwjMDxCKbWq",
     "snippet": {
       "publishedAt": "2025-04-28T01:16:17.89115Z",
@@ -548,12 +640,12 @@
       }
     },
     "contentDetails": {
-      "itemCount": 2
+      "itemCount": 3
     }
   },
   {
     "kind": "youtube#playlist",
-    "etag": "aMYqC0E--QTJxJseFby8O3CQtwc",
+    "etag": "saYZxLZW_iU6J2OJmTu35zLnCZc",
     "id": "PLqbGwD2Zp_BZbApknRLIVaY07gBQiUJD4",
     "snippet": {
       "publishedAt": "2025-04-28T00:22:11.251966Z",
@@ -594,7 +686,7 @@
       }
     },
     "contentDetails": {
-      "itemCount": 9
+      "itemCount": 11
     }
   },
   {
@@ -829,7 +921,7 @@
   },
   {
     "kind": "youtube#playlist",
-    "etag": "SxoyZJs8hmQxI6P35f6Xu-y5ZKI",
+    "etag": "SxbTuY_Dy3ritnLOqCEGyxKp8eY",
     "id": "PLqbGwD2Zp_BaqcLr9rhQnp-HaZ3V0Xp1q",
     "snippet": {
       "publishedAt": "2025-04-12T06:20:08.82242Z",
@@ -870,7 +962,7 @@
       }
     },
     "contentDetails": {
-      "itemCount": 19
+      "itemCount": 17
     }
   },
   {
@@ -921,12 +1013,12 @@
   },
   {
     "kind": "youtube#playlist",
-    "etag": "22eyYwjVTKBHk_lezAmJFvLK784",
+    "etag": "-bZUl4YGY9DcsoZA6hDqacl0AUY",
     "id": "PLqbGwD2Zp_BY5QHyKD9_JaA2W-dIwS_o6",
     "snippet": {
       "publishedAt": "2025-04-10T12:42:05.033908Z",
       "channelId": "UCCj88q3bb5OnVznn7hUY_9Q",
-      "title": "Sah Bible Vol. 2",
+      "title": "Sah’s Bible Vol. 2",
       "description": "",
       "thumbnails": {
         "default": {
@@ -957,12 +1049,12 @@
       },
       "channelTitle": "Sayeed Joseph",
       "localized": {
-        "title": "Sah Bible Vol. 2",
+        "title": "Sah’s Bible Vol. 2",
         "description": ""
       }
     },
     "contentDetails": {
-      "itemCount": 8
+      "itemCount": 11
     }
   },
   {
@@ -1197,7 +1289,7 @@
   },
   {
     "kind": "youtube#playlist",
-    "etag": "15kOAvH3h9ppbWA27DIALO3l7WA",
+    "etag": "qind6zBUzHTkC4efAiuSrSAMIJ8",
     "id": "PLqbGwD2Zp_BaYi6Ami01hcrfiOLnQPLcp",
     "snippet": {
       "publishedAt": "2025-03-29T14:15:36.464379Z",
@@ -1238,12 +1330,12 @@
       }
     },
     "contentDetails": {
-      "itemCount": 33
+      "itemCount": 38
     }
   },
   {
     "kind": "youtube#playlist",
-    "etag": "musBZC_9H4heaz8OWKyvWJsAoVo",
+    "etag": "kM72pyQ8C8ND9XJBtpaKIIf6vik",
     "id": "PLqbGwD2Zp_BaXhVo-ftjpS1cvFjIGuclf",
     "snippet": {
       "publishedAt": "2025-03-27T11:02:13.006807Z",
@@ -1284,7 +1376,7 @@
       }
     },
     "contentDetails": {
-      "itemCount": 8
+      "itemCount": 9
     }
   },
   {
@@ -1427,7 +1519,7 @@
   },
   {
     "kind": "youtube#playlist",
-    "etag": "Fo_Z1wUytkf0U_kYZZ1SgdJUSxo",
+    "etag": "M8GKdGuPR-FL_7Yb0Osj74Ov14U",
     "id": "PLqbGwD2Zp_BbBZElZ9nNE5puOMOvlnCn4",
     "snippet": {
       "publishedAt": "2025-03-15T23:05:47.465826Z",
@@ -1463,7 +1555,7 @@
       }
     },
     "contentDetails": {
-      "itemCount": 154
+      "itemCount": 162
     }
   },
   {
@@ -8405,7 +8497,7 @@
   },
   {
     "kind": "youtube#playlist",
-    "etag": "9TdU91HRDwNRMHEVp5kADKhHFrQ",
+    "etag": "UF3jVz4hdfAvrF-9p2QJhAKOYQo",
     "id": "PLqbGwD2Zp_Bafw3xBKZEhJNJzw7QuwK4z",
     "snippet": {
       "publishedAt": "2016-06-13T23:06:22.942454Z",
@@ -8436,12 +8528,12 @@
       }
     },
     "contentDetails": {
-      "itemCount": 116
+      "itemCount": 114
     }
   },
   {
     "kind": "youtube#playlist",
-    "etag": "x_pP2U5jWYP-DQLE-pxpq4MlAik",
+    "etag": "ECqCZlQV_VZuFlq04aSjzUh8wME",
     "id": "FLCj88q3bb5OnVznn7hUY_9Q",
     "snippet": {
       "publishedAt": "2009-02-19T15:52:43Z",
@@ -8483,7 +8575,7 @@
       }
     },
     "contentDetails": {
-      "itemCount": 252
+      "itemCount": 251
     }
   }
 ]
