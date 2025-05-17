@@ -1,6 +1,144 @@
 [
   {
     "kind": "youtube#playlist",
+    "etag": "0qO_ufbxUorC1lp93KAghy1jeOk",
+    "id": "PLqbGwD2Zp_BZ3CSc0FtZ9Me1YKTjHJQio",
+    "snippet": {
+      "publishedAt": "2025-05-14T05:01:20.245377Z",
+      "channelId": "UCCj88q3bb5OnVznn7hUY_9Q",
+      "title": "Ellie’s Essence Vol. 1",
+      "description": "These aren’t just songs we played—these are songs we sang.  Three Little Birds was the song we sang together while getting ready for the sunrise shoot in Brazil. Is This Love became more than a classic the day we sang it at the lunch table with Kianna and Junior. I’ve never felt so in tune with a song—only because I was singing it with you.  Golden Lady and Everybody Loves the Sunshine don’t just describe the vibe. They describe you.  This playlist holds your glow, our memories, and the warmth that made them timeless.",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/CXCTjAMR3eA/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/CXCTjAMR3eA/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/CXCTjAMR3eA/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/CXCTjAMR3eA/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/CXCTjAMR3eA/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "channelTitle": "Sayeed Joseph",
+      "localized": {
+        "title": "Ellie’s Essence Vol. 1",
+        "description": "These aren’t just songs we played—these are songs we sang.  Three Little Birds was the song we sang together while getting ready for the sunrise shoot in Brazil. Is This Love became more than a classic the day we sang it at the lunch table with Kianna and Junior. I’ve never felt so in tune with a song—only because I was singing it with you.  Golden Lady and Everybody Loves the Sunshine don’t just describe the vibe. They describe you.  This playlist holds your glow, our memories, and the warmth that made them timeless."
+      }
+    },
+    "contentDetails": {
+      "itemCount": 8
+    }
+  },
+  {
+    "kind": "youtube#playlist",
+    "etag": "RJ04llCcgiLH7zuA1UevVIJoTFA",
+    "id": "PLqbGwD2Zp_BYnj-5hxD_U_Vi8uQeguNJR",
+    "snippet": {
+      "publishedAt": "2025-05-14T00:40:59.377582Z",
+      "channelId": "UCCj88q3bb5OnVznn7hUY_9Q",
+      "title": "Reincarnated Vol. 3",
+      "description": "",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/O0Id0olaeFw/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/O0Id0olaeFw/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/O0Id0olaeFw/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/O0Id0olaeFw/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/O0Id0olaeFw/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "channelTitle": "Sayeed Joseph",
+      "localized": {
+        "title": "Reincarnated Vol. 3",
+        "description": ""
+      }
+    },
+    "contentDetails": {
+      "itemCount": 8
+    }
+  },
+  {
+    "kind": "youtube#playlist",
+    "etag": "J_ZTkVWZfvMk_pVzyyCG-OZ34R0",
+    "id": "PLqbGwD2Zp_BadBsPcz0V9bpUtCSZK0FVH",
+    "snippet": {
+      "publishedAt": "2025-05-13T14:05:09.021408Z",
+      "channelId": "UCCj88q3bb5OnVznn7hUY_9Q",
+      "title": "Decades Series Vol. 2:Reggae",
+      "description": "",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/K7r7LyQ0Rls/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/K7r7LyQ0Rls/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/K7r7LyQ0Rls/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/K7r7LyQ0Rls/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/K7r7LyQ0Rls/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "channelTitle": "Sayeed Joseph",
+      "localized": {
+        "title": "Decades Series Vol. 2:Reggae",
+        "description": ""
+      }
+    },
+    "contentDetails": {
+      "itemCount": 15
+    }
+  },
+  {
+    "kind": "youtube#playlist",
     "etag": "zPW43i6x41ezbrRvaOg-5p3aozA",
     "id": "PLqbGwD2Zp_BajQyeP3MkkyuzJlPpsSQPt",
     "snippet": {
@@ -783,7 +921,7 @@
   },
   {
     "kind": "youtube#playlist",
-    "etag": "Fqpkw6al5HQ0eR__E9U6Taf6Pk4",
+    "etag": "8F00jrTb7QM7AjFn3zBAg_I31dU",
     "id": "PLqbGwD2Zp_BbZi-7XqG5IsSZNWNP2MlGo",
     "snippet": {
       "publishedAt": "2025-04-16T18:50:50.660824Z",
@@ -824,7 +962,7 @@
       }
     },
     "contentDetails": {
-      "itemCount": 3
+      "itemCount": 4
     }
   },
   {
@@ -1151,7 +1289,7 @@
   },
   {
     "kind": "youtube#playlist",
-    "etag": "0EO9tfmXxo8Ao0EzaRo_qxZpoCU",
+    "etag": "vpYtlNkFVP12OyxFBdh9Pi_rz6g",
     "id": "PLqbGwD2Zp_Bb9tvolh_QFXioskDzz6095",
     "snippet": {
       "publishedAt": "2025-04-09T04:44:02.582402Z",
@@ -1192,7 +1330,7 @@
       }
     },
     "contentDetails": {
-      "itemCount": 16
+      "itemCount": 27
     }
   },
   {
@@ -1243,7 +1381,7 @@
   },
   {
     "kind": "youtube#playlist",
-    "etag": "ThSqNQTraFCVnTdbPkFELs0uAWQ",
+    "etag": "uLRtTTDqH8Ay6bv4wY6ecLO2j9M",
     "id": "PLqbGwD2Zp_BYM0qd8nwNXQ3QCFZwZ8CgI",
     "snippet": {
       "publishedAt": "2025-04-04T05:14:31.043729Z",
@@ -1284,12 +1422,12 @@
       }
     },
     "contentDetails": {
-      "itemCount": 31
+      "itemCount": 32
     }
   },
   {
     "kind": "youtube#playlist",
-    "etag": "l3fmM1yqSZCjcZ0xIjsd4xHQlzg",
+    "etag": "yFA_PJE_AcUJXatHzZjwEyZ6Pgo",
     "id": "PLqbGwD2Zp_BZ2Aj2okG3GndZFfurrbPNi",
     "snippet": {
       "publishedAt": "2025-04-04T05:10:00.073286Z",
@@ -1330,7 +1468,7 @@
       }
     },
     "contentDetails": {
-      "itemCount": 2
+      "itemCount": 3
     }
   },
   {
@@ -1381,7 +1519,7 @@
   },
   {
     "kind": "youtube#playlist",
-    "etag": "qind6zBUzHTkC4efAiuSrSAMIJ8",
+    "etag": "RzofQ7PsX59_NVvpL09cwR5jUyw",
     "id": "PLqbGwD2Zp_BaYi6Ami01hcrfiOLnQPLcp",
     "snippet": {
       "publishedAt": "2025-03-29T14:15:36.464379Z",
@@ -1422,7 +1560,7 @@
       }
     },
     "contentDetails": {
-      "itemCount": 38
+      "itemCount": 39
     }
   },
   {
@@ -2015,7 +2153,7 @@
   },
   {
     "kind": "youtube#playlist",
-    "etag": "DMGmJKjqFU-vj3sxRaiQMo2R1h0",
+    "etag": "HDOpEi7bmJE9mU84WbBm_A_hvXU",
     "id": "PLqbGwD2Zp_BZQica4rEdM4YqWVPkcag0R",
     "snippet": {
       "publishedAt": "2025-02-21T13:56:56.098353Z",
@@ -2056,7 +2194,7 @@
       }
     },
     "contentDetails": {
-      "itemCount": 17
+      "itemCount": 18
     }
   },
   {
@@ -2337,7 +2475,7 @@
   },
   {
     "kind": "youtube#playlist",
-    "etag": "U21UkwN2PcmSaF0jEi0R7BaGMxg",
+    "etag": "WwsnXQ-Oo1tJ0cCXkv9dS00facY",
     "id": "PLqbGwD2Zp_BYFHu_cYp9TTR-iZHAnzYoD",
     "snippet": {
       "publishedAt": "2025-01-04T17:23:43.921355Z",
@@ -2346,27 +2484,27 @@
       "description": "",
       "thumbnails": {
         "default": {
-          "url": "https://i.ytimg.com/vi/BWtBckf8RIw/default.jpg",
+          "url": "https://i.ytimg.com/vi/xufJHc2EdBA/default.jpg",
           "width": 120,
           "height": 90
         },
         "medium": {
-          "url": "https://i.ytimg.com/vi/BWtBckf8RIw/mqdefault.jpg",
+          "url": "https://i.ytimg.com/vi/xufJHc2EdBA/mqdefault.jpg",
           "width": 320,
           "height": 180
         },
         "high": {
-          "url": "https://i.ytimg.com/vi/BWtBckf8RIw/hqdefault.jpg",
+          "url": "https://i.ytimg.com/vi/xufJHc2EdBA/hqdefault.jpg",
           "width": 480,
           "height": 360
         },
         "standard": {
-          "url": "https://i.ytimg.com/vi/BWtBckf8RIw/sddefault.jpg",
+          "url": "https://i.ytimg.com/vi/xufJHc2EdBA/sddefault.jpg",
           "width": 640,
           "height": 480
         },
         "maxres": {
-          "url": "https://i.ytimg.com/vi/BWtBckf8RIw/maxresdefault.jpg",
+          "url": "https://i.ytimg.com/vi/xufJHc2EdBA/maxresdefault.jpg",
           "width": 1280,
           "height": 720
         }
@@ -2378,7 +2516,7 @@
       }
     },
     "contentDetails": {
-      "itemCount": 4
+      "itemCount": 10
     }
   },
   {
@@ -2429,7 +2567,7 @@
   },
   {
     "kind": "youtube#playlist",
-    "etag": "2dk58cWrkhbXwMkUcPNe4CfgS_w",
+    "etag": "PwaiL1u1wIcoqkgCiY0xidJxoSc",
     "id": "PLqbGwD2Zp_BbYd-bwNIuqJZe41lSv5You",
     "snippet": {
       "publishedAt": "2024-12-31T15:06:13.168141Z",
@@ -2470,7 +2608,7 @@
       }
     },
     "contentDetails": {
-      "itemCount": 1132
+      "itemCount": 1133
     }
   },
   {
