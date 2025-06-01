@@ -21,7 +21,10 @@ export const fetchFromAPI = async (url) => {
 
 export const getPlaylists = async () => {
   try {
-    const response = await fetch(process.env.REACT_APP_S3_URL);
+    const response = await fetch(process.env.REACT_APP_S3_URL, {
+      method: "GET",
+      cache: "no-store",
+    });
     const data = await response.json();
     return data;
   } catch (error) {
