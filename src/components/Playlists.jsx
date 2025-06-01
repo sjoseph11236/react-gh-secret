@@ -11,6 +11,7 @@ const Playlists = ({
   query,
   setQuery,
   fetchPlaylists,
+  setIsLoading,
 }) => {
   const [message, setMessage] = useState("");
   const [isDisabled, setIsDisabled] = useState(false);
@@ -34,7 +35,7 @@ const Playlists = ({
     clearStatus();
     try {
       const syncResult = await syncPlaylists();
-      setIsDisabled(false);
+
       setMessage(syncResult.message);
       if (syncResult.status === "success") {
         fetchPlaylists();
@@ -46,6 +47,7 @@ const Playlists = ({
       setTimeout(() => {
         clearStatus();
       }, 3000);
+      setIsDisabled(false);
     }
   };
 
