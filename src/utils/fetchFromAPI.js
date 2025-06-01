@@ -39,14 +39,8 @@ export const syncPlaylists = async () => {
         "Content-Type": "application/json",
       },
     });
-
-    if (response.ok) {
-      const data = await response.json();
-      return data;
-    } else {
-      console.error("Failed to sync playlists");
-      return false;
-    }
+    const data = await response.json();
+    return data;
   } catch (error) {
     console.error("Failed to sync playlists");
     throw error;
